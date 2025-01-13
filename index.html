@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dziusna</title>
+    <meta name="description" content="Pasitrauk eimai gytuks parvara">
+</head>
+<body>
+    <button onClick="play()" style="padding: 30px;">Play</button>
+    <audio id="audio" src="dziusna.mp3"></audio>
+    <script>
+        function play() {
+            const audio = document.getElementById('audio');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
